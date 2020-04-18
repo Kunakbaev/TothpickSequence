@@ -6,7 +6,7 @@ let minX;
 let maxX;
 
 function setup() {
-  minVal = min([windowWidth - 100, windowHeight - 100]);
+  minVal = min([windowWidth - 10, windowHeight - 10]);
   createCanvas(minVal, minVal)
   minX = -width / 2;
   maxX = width / 2;
