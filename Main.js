@@ -6,7 +6,8 @@ let minX;
 let maxX;
 
 function setup() {
-  createCanvas(600, 600);
+  minVal = min([windowWidth - 100, windowHeight - 100]);
+  createCanvas(minVal, minVal)
   minX = -width / 2;
   maxX = width / 2;
   picks.push(new Toothpick(0, 0, 1));
